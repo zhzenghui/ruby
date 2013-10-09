@@ -1,0 +1,158 @@
+<!--
+      ____        __             ________    _
+     / __ \__  __/ /_  __  __   / ____/ /_  (_)___  ____ _
+    / /_/ / / / / __ \/ / / /  / /   / __ \/ / __ \/ __ `/
+   / _, _/ /_/ / /_/ / /_/ /  / /___/ / / / / / / / /_/ /
+  /_/ |_|\__,_/_.___/\__, /   \____/_/ /_/_/_/ /_/\__,_/
+                    /____/
+  ========================================================
+                                          ruby-china.org
+
+  App Environments:
+  --------------------------------------------------------
+  Ruby:  2.0.0-p247
+  Rails: 4.0.0
+-->
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+  <title>Ruby China | Wiki</title>
+  <link data-turbolinks-track="true" href="http://l.ruby-china.org/assets/front-fb0b43c5c6e420c9d232f4a9ac9b0ccd.css" media="screen" rel="stylesheet" />
+  
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta charset='utf-8' />
+  <link rel="shortcut icon" href="http://l.ruby-china.org/assets/big_logo-3ada61910a1fdcfbd429eb7958f9292a.png" />
+  <link rel="dns-prefetch" href="//l.ruby-china.org" />
+
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="ybDg2bsodvoVVEttyyCxyn1/dGL3e4rC3b3LIVE8EnM=" name="csrf-token" />
+  <link href="http://ruby-china.org/topics/feed" rel="alternate" title="订阅最新帖" type="application/rss+xml" />
+  <script data-turbolinks-track="true" src="http://l.ruby-china.org/assets/app-6a13db9a9c88e4e032fe9cc141ce8db6.js"></script>
+  
+</head>
+<body data-offset="50" data-controller-name="pages">
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <h3>
+          <a href="/" class="site-logo"></a>
+        </h3>
+        <ul class="nav"><li class="first"><a href="/topics">社区</a></li><li class="active"><a href="/wiki">Wiki</a></li><li><a href="/sites">酷站</a></li><li class="last"><a href="/users">会员</a></li></ul>
+        <form action="/search" class="navbar-search pull-left" method="get">
+          <input type="text" name="q" class="search-query span3" value="" placeholder="搜索" />
+        </form>
+          <ul class="nav pull-right" id="userbar"><li class="first"><a href="/account/sign_up">注册</a></li><li class="last"><a href="/account/sign_in">登录</a></li></ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+      <div class="hidden-phone" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+        <ul class="breadcrumb menu clearfix"><li class="first"><a href='/'>Home</a> <span class="divider">/</span></li>
+<li class=""><a href="/wiki" itemprop="url"><span itemprop="title">Wiki</span></a> <span class="divider">/</span></li>
+<li class="last active"><a href="http://ruby-china.org/wiki" itemprop="url"><span itemprop="title">索引</span></a></li>
+</ul>
+      </div>
+      <div class="feed_link hidden-phone">
+          <a class="feed" href="http://ruby-china.org/topics/feed" title="订阅Ruby China社区新帖"><span class='icon icons_rss'></span> Feed</a>
+      </div>
+
+    
+    <div id="main" class="container-fluid">
+      <div id="pages">
+  <div class="tools">
+    <a href="/wiki/recent">Wiki目录</a>
+  </div>
+  <div class="box">
+  <h2 class="title">Wiki 推荐内容</h2>
+  <ul>
+     <li><a href="/wiki/install_ruby_guide">如何快速正确的安装 Ruby, Rails 运行环境</a></li>
+     <li><a href="/wiki/tools">Ruby 开发工具</a>&nbsp;&nbsp; - &nbsp;&nbsp;<i>介绍 Ruby 标准的开发环境，以及工具</i></li>
+     <li><a href="/wiki/books">书籍推荐</a>&nbsp;&nbsp; - &nbsp;&nbsp;<i>从入门到精通的一系列学习路线书籍介绍</i></li>
+     <li><a href="/wiki/rvm-guide">RVM 实用指南</a></li>
+     <li><a href="/wiki/rbenv-guide">rbenv 实用指南</a></li>
+     <li><a href="/wiki/coding-style">Ruby 风格指导</a>&nbsp;&nbsp; - &nbsp;&nbsp;<i>Ruby 官方首推代码风格介绍</i></li>
+     <li><a href="/wiki/rails-stye-guide">Rails 风格指导</a></li>
+     <li><a href="/wiki/gems">常用 Gem 列表</a></li>
+     <li><a href="/wiki/rails_hosting">Rails 主机，VPS，服务器推荐</a></li>
+     <li><a href="/wiki/install-rails-on-ubuntu-12-04-server">在 Ubuntu 12.04 Server 上安装部署 Ruby on Rails 环境</a></li>
+     <li><a href="/wiki/mac-nginx-passenger-rails">如何在 Mac下快速部署 Nginx + Passenger + Rails</a></li>
+     <li><a href="/wiki/building-a-command-line-tool-with-optionparser">用 OptionParser 构建 Command Line 工具</a></li>
+     <li><a href="/wiki/ruby-meta">Ruby 元编程的相关学习资源</a></li>
+     <li><a href="/wiki/win32-gem">Windows 下编译 Native Gem 的一些经验</a></li>
+  </ul>
+</div>
+<div class="box">
+  <h2 class="title">其他地方的中文资料</h2>
+  <ul>
+    <li><a href="/wiki/start_leaning_rails">如何从零开始学会 Rails</a></li>
+    <li><a href="http://saito.im/slide/ruby-new.html" target="_blank">Ruby 语言新手教程</a></li>
+    <li><a href="http://rogerdudler.github.com/git-guide/index.zh.html" target="_blank">Git 版本管理工具快速入门</a></li>
+    <li><a href="http://guides.ruby.tw/rails3/getting_started.html" target="_blank">Ruby on Rails 官方 Guides 繁体版</a>
+    <li><a href="http://ihower.tw/rails3/" target="_blank">Ruby on Rails 實戰聖經</a></li>
+  </ul>
+</div>
+</div>
+    </div>
+  </div>
+
+  <a class="go_top" href="#"><i class="icon icons_go_top"></i></a>
+  <footer class="footer">
+    <div class="container">
+      <div class="pull-right" style="width:200px; text-align:right;">
+<a href="http://www.ucloud.cn/?ref=ruby-china" target="_blank"  rel="twipsy" title="本站服务器由 UCloud 赞助" style="display:inline-block;margin-right:5px;"><img src="http://l.ruby-china.org/photo/f4af478ff2d85e0e3a3208417b5dfb4f.png" style='height:28px' /></a>
+</div>
+
+<div>
+<div class="pull-left" style="margin-right:10px;">
+<img src="http://l.ruby-china.org/photo/5982eaaa64f467d9dbda03ad4f40ea27.png" style="width:48px;" />
+</div>
+<p class="links">
+<a href="/wiki/about">关于</a> | <a href="/api">API</a> | <a href="http://l.ruby-china.org/files/ruby-china-notifier-1.3.2.zip">Mac 客户端</a> | <a href="http://railscasts-china.com/" target="_blank" rel="nofollow">Rails 视频教程</a> | <a href="http://ruby.taobao.org" target="_blank" rel="nofollow">Gems 镜像</a> | <a href="http://guides.ruby-china.org">Rails Guides</a> | <a href="/wiki/contributors">贡献者</a> | <a href="/wiki/spread_ruby_china">帮助推广</a> | <a href="/topics/node22">反馈</a> | <a href="http://github.com/ruby-china" target="_blank" rel="nofollow">Github</a> | <a href="http://twitter.com/ruby_china" target="_blank" rel="nofollow">Twitter</a>
+</p>
+<p class="copyright">
+中国 Ruby 社区，由众多爱好者共同维护，致力于构建完善的 Ruby 中文社区。<br />
+图片存储由 <a href="https://www.upyun.com/?utm_source=ruby-china&utm_medium=ad&utm_campaign=upyun&md=ruby-china" target="_blank" style="display:inline-block;" rel="twipsy"  title="图片存储由又拍云赞助">又拍云存储</a> 提供。
+</p>
+</div>
+    </div>
+  </footer>
+  <script type="text/javascript" data-turbolinks-eval=false>
+    ROOT_URL = "http://ruby-china.org/";
+    FAYE_SERVER_URL = "http://ruby-china.org:8080/faye";
+    if (FAYE_SERVER_URL) {
+      App.initNotificationSubscribe();
+    }
+  </script>
+  
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26598064-1']);
+      _gaq.push(['_setSiteSpeedSampleRate', 100]);
+      _gaq.push(['_trackPageview']);
+
+      _gaq.push(['_trackTiming', 'Garelic', 'Response (Total)', 16, 'PagesController#index']);
+_gaq.push(['_trackTiming', 'Garelic', 'Response (Views)', 7, 'PagesController#index']);
+_gaq.push(['_trackTiming', 'Garelic', 'Response (ActiveRecord)', 0, 'PagesController#index']);
+
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-6.newrelic.com","74b27d74b3","1523499","dFkMRENZWg1UFhpEUVBTER9YWFIESQ==",0,18,new Date().getTime(),"","","","",""]);</script></body>
+</html>
